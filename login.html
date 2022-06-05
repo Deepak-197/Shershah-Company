@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <style>
+      body {
+        background-color: #4037a3;
+      }
+      #container {
+        /* border: 1px solid red; */
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background-color: white;
+        margin-top: 20px;
+        padding: 0px 25px 50px 25px;
+      }
+      p {
+        margin: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 25px;
+        color: black;
+      }
+      input,
+      button {
+        height: 40px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 15px;
+      }
+      button {
+        background-color: #4037a3;
+        border: none;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 100px;
+      }
+      button + p {
+        margin-top: 100px;
+      }
+      button + p,
+      p + p {
+        font-size: 15px;
+        margin: auto;
+        color: black;
+      }
+      span {
+        color: rgb(30, 30, 101);
+      }
+      p > button {
+        color: white;
+        background-color: rgb(30, 30, 101);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <p>Login</p>
+      <input type="text" placeholder="Email" />
+      <input type="password" placeholder="password" />
+      <button>Login</button>
+      <p>Forgot <span>Password</span>?</p>
+      <p>Don't have an account? <span>Signup</span></p>
+    </div>
+  </body>
+</html>
